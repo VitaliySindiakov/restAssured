@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import static org.hamcrest.Matchers.equalTo;
 import static io.restassured.RestAssured.given;
 
-public class TestClass {
+public class TestsApiGet {
     @Test
     public void test01(){
 //Base URL or Host
@@ -18,8 +18,6 @@ public class TestClass {
 // body("").
         when().
                 get("/maps/api/place/nearbysearch/json").
-
-
                 then().assertThat().
                 statusCode(200)
                 .and().
@@ -30,6 +28,7 @@ public class TestClass {
                 body("results[0].place_id",equalTo("ChIJP3Sa8ziYEmsRUKgyFmh9AQM")).
                 and().
                 header("server","scaffolding on HTTPServer2");
+        System.out.println();
     }
 
 }

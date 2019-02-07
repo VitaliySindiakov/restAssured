@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46f5b081-f8d0-4a89-b2fe-f1ea37f14820" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestsApiPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestsApiPostAndDelete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestsApiGet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,50 +20,82 @@
     <session id="-1055943099">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="class" value="3" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="40" />
-          <entry key="xml" value="10" />
+          <entry key="java" value="459" />
+          <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="40" />
-          <entry key="XML" value="10" />
+          <entry key="JAVA" value="459" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="238">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestsApiGet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="50" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestsApiPost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestClass.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestsApiPostAndDelete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+            <state relative-caret-position="459">
+              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +118,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestsApiGet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestsApiPost.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestsApiPostAndDelete.java" />
       </list>
     </option>
   </component>
@@ -113,10 +151,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2318" />
-    <option name="y" value="263" />
-    <option name="width" value="1041" />
-    <option name="height" value="542" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -124,7 +162,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,22 +185,36 @@
               <item name="comrestAssured" type="b2602c69:ProjectViewProjectNode" />
               <item name="restAssured" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comrestAssured" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restAssured" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548949426800" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testng-6.14.3.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549555086155" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,21 +228,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass">
-    <configuration name="TestClass" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestsApiPostAndDelete.postData">
+    <configuration name="TestsApiGet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="MAIN_CLASS_NAME" value="TestsApiGet" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass.test01" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsApiGet.test01" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="MAIN_CLASS_NAME" value="TestsApiGet" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -199,14 +251,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestsApiPostAndDelete.postData" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsApiPostAndDelete" />
+      <option name="METHOD_NAME" value="postData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsApiPost.postData" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsApiPost" />
+      <option name="METHOD_NAME" value="postData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.TestClass.test01" />
-      <item itemvalue="TestNG.TestClass" />
+      <item itemvalue="TestNG.TestsApiGet.test01" />
+      <item itemvalue="TestNG.TestsApiGet" />
+      <item itemvalue="TestNG.TestsApiPost.postData" />
+      <item itemvalue="TestNG.TestsApiPostAndDelete.postData" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestClass" />
-        <item itemvalue="TestNG.TestClass.test01" />
+        <item itemvalue="TestNG.TestsApiPostAndDelete.postData" />
+        <item itemvalue="TestNG.TestsApiPost.postData" />
+        <item itemvalue="TestNG.TestsApiGet.test01" />
+        <item itemvalue="TestNG.TestsApiGet" />
       </list>
     </recent_temporary>
   </component>
@@ -224,11 +304,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClass_test01 - 2019.01.31 at 17h 40m 21s.xml">
-      <configuration name="TestClass.test01" configurationId="TestNG" />
+    <history-entry file="TestsApiPost_postData - 2019.02.07 at 17h 33m 08s.xml">
+      <configuration name="TestsApiPost.postData" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2019.01.31 at 17h 40m 46s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
+    <history-entry file="TestsApiPostAndDelete_postData - 2019.02.07 at 17h 36m 02s.xml">
+      <configuration name="TestsApiPostAndDelete.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestsApiPostAndDelete_postData - 2019.02.07 at 17h 36m 22s.xml">
+      <configuration name="TestsApiPostAndDelete.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestsApiPostAndDelete_postData - 2019.02.07 at 17h 36m 46s.xml">
+      <configuration name="TestsApiPostAndDelete.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestsApiPostAndDelete_postData - 2019.02.07 at 17h 39m 05s.xml">
+      <configuration name="TestsApiPostAndDelete.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestsApiPostAndDelete_postData - 2019.02.07 at 17h 42m 28s.xml">
+      <configuration name="TestsApiPostAndDelete.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestsApiPostAndDelete_postData - 2019.02.07 at 17h 44m 23s.xml">
+      <configuration name="TestsApiPostAndDelete.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestsApiPostAndDelete_postData - 2019.02.07 at 17h 44m 44s.xml">
+      <configuration name="TestsApiPostAndDelete.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestsApiPostAndDelete_postData - 2019.02.07 at 17h 49m 03s.xml">
+      <configuration name="TestsApiPostAndDelete.postData" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestsApiPostAndDelete_postData - 2019.02.07 at 17h 55m 32s.xml">
+      <configuration name="TestsApiPostAndDelete.postData" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -236,7 +340,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49761525" visible="true" weight="0.14498934" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49761525" visible="true" weight="0.15618336" />
       <window_info id="Favorites" order="2" sideWeight="0.5023847" side_tool="true" weight="0.1444563" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="UI Designer" order="4" />
@@ -261,25 +365,100 @@
       <window_info anchor="right" id="Ant Build" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.08315565" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.08315565" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Capture Tool" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49761525" visible="true" weight="0.15618336" />
+      <window_info id="Favorites" order="2" sideWeight="0.5023847" side_tool="true" weight="0.1444563" />
+      <window_info id="Structure" order="3" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.4978678" weight="0.32321042" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3274918" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50373137" side_tool="true" weight="0.3177874" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49626866" visible="true" weight="0.2733189" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.21475054" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978678" weight="0.22342733" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.27006507" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.329718" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.08315565" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995737" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestsApiGet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="459">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestsApiPost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="71" lean-forward="true" selection-start-line="29" selection-start-column="71" selection-end-line="29" selection-end-column="71" />
+        <state relative-caret-position="391">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../rest-assured-3.1.0.jar!/io/restassured/response/ResponseBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../rest-assured-3.1.0.jar!/io/restassured/response/Response.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../rest-assured-3.1.0.jar!/io/restassured/RestAssured.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="158" column="39" selection-start-line="158" selection-start-column="39" selection-end-line="158" selection-end-column="39" />
+          <folding>
+            <element signature="e#6296#6297#0" expanded="true" />
+            <element signature="e#6370#6371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestsApiPostAndDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
