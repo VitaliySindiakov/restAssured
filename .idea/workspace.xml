@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46f5b081-f8d0-4a89-b2fe-f1ea37f14820" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataLocation/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Files/PayLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Files/Resources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Files/env.properties" afterDir="false" />
+    <list default="true" id="46f5b081-f8d0-4a89-b2fe-f1ea37f14820" name="Default Changelist" comment="PostAndDelete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Files/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestsApiPostAndDeleteXML.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestsApiPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestsApiPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestsApiPostAndDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestsApiPostAndDelete.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,44 +20,45 @@
     <session id="-1055943099">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
+          <entry key="class" value="4" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="9" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="7" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1044" />
+          <entry key="java" value="1301" />
           <entry key="properties" value="32" />
-          <entry key="txt" value="4" />
+          <entry key="txt" value="13" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1044" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="1301" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="Properties" value="32" />
           <entry key="XML" value="11" />
         </counts>
@@ -72,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestsApiPostAndDelete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+            <state relative-caret-position="432">
+              <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,19 +80,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Files/Resources.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Files/ReusableMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Files/PayLoad.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,6 +116,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Files/resources.java" />
         <option value="$PROJECT_DIR$/src/main/java/Files/Resources.java" />
         <option value="$PROJECT_DIR$/src/main/java/Files/PayLoad.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestsApiPostAndDeleteXML.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Files/ReusableMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestsApiPostAndDelete.java" />
       </list>
     </option>
@@ -163,7 +157,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,12 +208,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549627611126" />
-    <property name="last_opened_file_path" value="C:/Romancecompass/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549987093492" />
+    <property name="last_opened_file_path" value="C:/SmokeTest/jump4love/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -247,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestsApiPostAndDelete">
+  <component name="RunManager" selected="TestNG.TestsApiPostAndDelete.postAndDeleteData">
     <configuration name="TestsApiGet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured" />
       <option name="PACKAGE_NAME" value="" />
@@ -313,8 +307,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestsApiPostAndDelete" />
         <item itemvalue="TestNG.TestsApiPostAndDelete.postAndDeleteData" />
+        <item itemvalue="TestNG.TestsApiPostAndDelete" />
         <item itemvalue="TestNG.TestsApiPost.postData" />
         <item itemvalue="TestNG.TestsApiGet.test01" />
         <item itemvalue="TestNG.TestsApiGet" />
@@ -339,13 +333,17 @@
       <option name="project" value="LOCAL" />
       <updated>1549555096153</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PostAndDelete">
+      <created>1549627623097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549627623097</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestsApiPostAndDelete - 2019.02.08 at 11h 33m 37s.xml">
-      <configuration name="TestsApiPostAndDelete" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestsApiPostAndDelete - 2019.02.08 at 11h 34m 06s.xml">
       <configuration name="TestsApiPostAndDelete" configurationId="TestNG" />
     </history-entry>
@@ -373,13 +371,16 @@
     <history-entry file="TestsApiPostAndDelete - 2019.02.08 at 14h 02m 43s.xml">
       <configuration name="TestsApiPostAndDelete" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestsApiPostAndDelete_postAndDeleteData - 2019.02.12 at 11h 55m 05s.xml">
+      <configuration name="TestsApiPostAndDelete.postAndDeleteData" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49761525" visible="true" weight="0.15778251" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49761525" visible="true" weight="0.1641791" />
       <window_info id="Favorites" order="2" sideWeight="0.5023847" side_tool="true" weight="0.1444563" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="UI Designer" order="4" />
@@ -389,7 +390,7 @@
       <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.4978678" weight="0.32321042" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3274918" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50373137" side_tool="true" weight="0.3177874" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49626866" visible="true" weight="0.32321042" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49626866" visible="true" weight="0.32321042" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.21475054" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978678" weight="0.22342733" />
@@ -443,7 +444,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post" />
+    <MESSAGE value="PostAndDelete" />
+    <option name="LAST_COMMIT_MESSAGE" value="PostAndDelete" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../rest-assured-3.1.0.jar!/io/restassured/response/ResponseBody.class">
@@ -467,13 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Files.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -492,9 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="37" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,9 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="50" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,24 +512,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestsApiPostAndDeleteXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/json-path/3.0.6/json-path-3.0.6.jar!/io/restassured/path/json/JsonPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Files/PayLoad.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Files/Resources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Files/ReusableMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestsApiPostAndDelete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="432">
+          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
