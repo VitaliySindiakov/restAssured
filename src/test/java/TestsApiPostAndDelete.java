@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Properties;
 import static DataLocation.URL.pathToEnv;
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.reset;
+
 import static org.hamcrest.Matchers.equalTo;
 
 public class TestsApiPostAndDelete {
