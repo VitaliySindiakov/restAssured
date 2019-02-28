@@ -45,7 +45,7 @@ public class TestsApiPostAndDelete {
                 body("data.owner_name", equalTo("Виталий S")).
                 extract().response();
         ReusableMethods.rewToJson(responsePost);
-        Integer id = ReusableMethods.getParam(responsePost, "data.id");
+        Integer id = ReusableMethods.getIntParam(responsePost, "data.id");
 //        Integer id = js.get("data.id");
         System.out.println("ID is - " + id);
         System.out.println("Now we will request Delete metod with - " + prop.getProperty("HOST") + Resources.postData() + id);

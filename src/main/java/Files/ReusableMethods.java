@@ -8,11 +8,17 @@ public class ReusableMethods {
         JsonPath js = new JsonPath(responseText);
         return response;
     }
-    public static Integer getParam(Response response, String param) {
+    public static Integer getIntParam(Response response, String param) {
         String responseText = response.asString();
         JsonPath js = new JsonPath(responseText);
-       Integer getParam =  js.get(param);
-        return getParam;
+        Integer getIntParam =  js.get(param);
+        return getIntParam;
+    }
+    public static String getStringParam(Response response, String param) {
+        String responseText = response.asString();
+        JsonPath js = new JsonPath(responseText);
+        String getIntParam =  js.get(param);
+        return getIntParam;
     }
 
 }
